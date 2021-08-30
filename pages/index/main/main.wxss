@@ -1,0 +1,89 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  background: #F7F7F7;
+}
+
+.bg {
+  padding-top: 88px;
+  justify-content: center;
+  display: flex;
+}
+
+.bg image {
+  width: 160rpx;
+  height: 160rpx;
+}
+
+.title {
+  text-align: center;
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #26210C;
+  margin-top: 24rpx;
+
+}
+
+.sell {
+  width: 670rpx;
+  height: 240rpx;
+  margin: 64rpx auto 24rpx auto;
+  position: relative;
+  display: flex;
+}
+
+
+.sell .content {
+  position: absolute;
+  top: 40rpx;
+  height: 200rpx;
+  background: #fff;
+  width: 100%;
+  display: flex;
+}
+
+.sell image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.sell .text {
+  margin-left: 247rpx;
+  height: 100%;
+  margin-top: 49rpx;
+}
+
+.sell .text:nth-child(2){
+  margin: 0;
+  margin-left: auto;
+  width: 174rpx;
+  line-height: 100px;
+  text-align: center;
+  color: #C7C6BF;
+}
+
+.sell .text view:nth-child(1) {
+  font-size: 40rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #26210C;
+}
+
+.sell .text view:nth-child(1) text {
+  color: #FF8800;
+}
+
+.sell .text view:nth-child(2) {
+  color: #FF8800;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #B8B7B0;
+}

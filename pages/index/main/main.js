@@ -12,9 +12,10 @@ Page({
     canIUseOpenData: wx.canIUse('open-data.type.userAvatarUrl') && wx.canIUse('open-data.type.userNickName') // 如需尝试获取用户信息可改为false
   },
   // 事件处理函数
-  bindViewTap() {
+  sell() {
+    debugger
     wx.navigateTo({
-      url: '../logs/logs'
+      url: '../index/main/index'
     })
   },
   onLoad() {
@@ -45,11 +46,11 @@ Page({
       hasUserInfo: true
     })
   },
-  getPhone(){
+  getPhone() {
     wx.login({
       success: res => {
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
-        if(res.code){
+        if (res.code) {
           wx.request({
             url: 'url',
           })

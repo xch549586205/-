@@ -1,0 +1,34 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="bg">
+    <image src="./images/bg.png" alt="" />
+  </view>
+  <view class="title">
+    <text>撸五湖四海 交八方朋友</text>
+  </view>
+  <view class="sell">
+    <image src="./images/sellBg.png" alt="" />
+    <view class="content" bindtap="sell">
+      <view class="text">
+        <view>我要<text>出货</text></view>
+        <view>SHIPMENT</view>
+      </view>
+      <view class="text">
+        >
+      </view>
+    </view>
+  </view>
+  <view class="sell" style="margin:0 auto">
+    <image src="./images/buyBg.png" alt="" />
+    <view class="content"  bindtap="buy">
+      <view class="text">
+        <view>我要<text>收货</text></view>
+        <view>RECEIVING</view>
+      </view>
+      <view class="text">
+        >
+      </view>
+    </view>
+  </view>
+</view>

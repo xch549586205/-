@@ -1,9 +1,0 @@
-<!--index.wxml-->
-<view class="container">
-
-  <block>
-    <button bindtap="getPhone"> 获取手机号 </button>
-
-  </block>
-
-</view>
